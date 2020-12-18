@@ -21,7 +21,7 @@
         "symfony/dependency-injection":  ">=2.0.0,<2.2.0-dev",
         "symfony/event-dispatcher":      ">=2.0.0,<2.2.0-dev",
         "symfony/translation":           ">=2.0.0,<2.2.0-dev",
-        "symfony/yaml":                  "dev-master",
+        "symfony/yaml":                  "2.1.14",
         "symfony/finder":                ">=2.0.0,<2.2.0-dev"
     },
 
@@ -35,13 +35,6 @@
             "Behat\\Behat": "src/"
         }
     },
-
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/clegginabox/yaml"
-        }
-    ],
 
     "bin": ["bin/behat"]
 }
